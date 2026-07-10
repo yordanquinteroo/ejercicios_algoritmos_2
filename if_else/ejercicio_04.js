@@ -10,4 +10,22 @@
   Declara una variable "monto" con el valor de la compra.
   Calcula e imprime el valor del descuento y el precio final a pagar.
 */
+let monto = 0;
+let descuento = 0;
+let precioFinal = 0;
 
+if (monto >= 500000) {
+    descuento = monto * 0.20;
+} else if (monto >= 200000) {
+    descuento = monto * 0.10;
+} else if (monto >= 100000) {
+    descuento = monto * 0.05;
+} else {
+    descuento = 0;
+}
+
+precioFinal = monto - descuento;
+
+console.log("Monto de la compra: $" + monto);
+console.log("Descuento: $" + descuento);
+console.log("Precio final a pagar: $" + precioFinal);

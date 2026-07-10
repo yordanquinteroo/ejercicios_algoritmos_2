@@ -11,5 +11,17 @@
   (la suma de dos lados debe ser mayor que el tercero), muestra:
   "Los lados no forman un triangulo valido."
 */
+let lado1 = 5;
+let lado2 = 5;
+let lado3 = 5;
 
+if (lado1 + lado2 <= lado3 || lado1 + lado3 <= lado2 || lado2 + lado3 <= lado1) {
+    console.log("Los lados no forman un triangulo valido.");
+} else if (lado1 === lado2 && lado2 === lado3) {
+    console.log("Equilatero");
+} else if (lado1 === lado2 || lado1 === lado3 || lado2 === lado3) {
+    console.log("Isosceles");
+} else {
+    console.log("Escaleno");
+}
 

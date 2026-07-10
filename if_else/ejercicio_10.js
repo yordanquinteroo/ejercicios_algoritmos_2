@@ -13,4 +13,13 @@
   - Si el usuario no existe: "Usuario no encontrado."
 */
 
+let usuario = "admin";
+let contrasena = "sena2026";
 
+if (usuario === "admin" && contrasena === "sena2026") {
+    console.log("Bienvenido al sistema.");
+} else if (usuario === "admin" && contrasena !== "sena2026") {
+    console.log("Contrasena incorrecta.");
+} else {
+    console.log("Usuario no encontrado.");
+}

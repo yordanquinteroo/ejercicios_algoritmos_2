@@ -10,3 +10,18 @@
   Declara una variable "edad" con la edad del espectador.
   Usando if / else if / else, calcula e imprime el precio de la entrada.
 */
+let edad = 20;
+let precio = 0;
+
+if (edad < 5) {
+    precio = 0;
+} else if (edad >= 5 && edad <= 11) {
+    precio = 8000;
+} else if (edad >= 12 && edad <= 64) {
+    precio = 15000;
+} else {
+    precio = 9000;
+}
+
+console.log("Edad: " + edad);
+console.log("Precio de la entrada: $" + precio);
