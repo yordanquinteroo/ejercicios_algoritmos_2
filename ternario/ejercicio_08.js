@@ -9,4 +9,13 @@
   - Si no:                          "Velocidad dentro del limite."
   Imprime la velocidad y la alerta.
 */
+// Ejercicio - Operador ternario: Límite de velocidad
 
+var velocidad = 45;
+
+var alerta = (velocidad > 30)
+    ? "ALERTA: Exceso de velocidad."
+    : "Velocidad dentro del límite.";
+
+console.log("Velocidad: " + velocidad + " km/h");
+console.log(alerta);
