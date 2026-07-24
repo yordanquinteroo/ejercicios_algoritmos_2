@@ -10,4 +10,14 @@
 
   Pista: puedes encadenar dos operadores ternarios para tres opciones.
 */
+// Ejercicio - Operador ternario: Saludo según la hora
 
+var hora = 15;
+
+var saludo = (hora >= 0 && hora <= 11)
+    ? "Buenos días"
+    : (hora >= 12 && hora <= 17)
+        ? "Buenas tardes"
+        : "Buenas noches";
+
+console.log(saludo);
