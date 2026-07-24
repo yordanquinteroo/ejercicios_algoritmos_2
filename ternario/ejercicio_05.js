@@ -11,3 +11,13 @@
   luego calcula el precio final e imprime ambos valores.
 */
 
+// Ejercicio - Operador ternario: Descuento para clientes
+
+var esVIP = true;
+var precioBase = 100000;
+
+var descuento = esVIP ? 20 : 5;
+var precioFinal = precioBase - (precioBase * descuento / 100);
+
+console.log("Descuento: " + descuento + "%");
+console.log("Precio final: $" + precioFinal);
