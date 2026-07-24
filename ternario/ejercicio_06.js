@@ -9,4 +9,12 @@
   Imprime la recomendacion en consola.
 */
 
+// Ejercicio - Operador ternario: Recomendación según la temperatura
 
+var temperatura = 12;
+
+var recomendacion = (temperatura < 15)
+    ? "Abrígate bien antes de salir."
+    : "Puedes salir con ropa ligera.";
+
+console.log(recomendacion);
