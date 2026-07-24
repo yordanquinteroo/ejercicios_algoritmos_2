@@ -11,3 +11,40 @@
   Imprime el mes y la estacion correspondiente.
 */
 
+// Ejercicio 5 - Switch: Estación del año
+
+var mes = 7;
+
+switch (mes) {
+    case 12:
+    case 1:
+    case 2:
+        console.log("Mes: " + mes);
+        console.log("Estación: Verano");
+        break;
+
+    case 3:
+    case 4:
+    case 5:
+        console.log("Mes: " + mes);
+        console.log("Estación: Otoño");
+        break;
+
+    case 6:
+    case 7:
+    case 8:
+        console.log("Mes: " + mes);
+        console.log("Estación: Invierno");
+        break;
+
+    case 9:
+    case 10:
+    case 11:
+        console.log("Mes: " + mes);
+        console.log("Estación: Primavera");
+        break;
+
+    default:
+        console.log("Mes no válido.");
+        break;
+}
