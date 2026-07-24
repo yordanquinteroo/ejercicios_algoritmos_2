@@ -10,6 +10,15 @@
   Usando el operador ternario, calcula la tarifa por hora y luego el total a pagar.
   Imprime el tipo de vehiculo, las horas parqueadas y el total.
 */
+// Ejercicio - Operador ternario: Cobro de parqueadero
 
-let esMoto = false;
-let horas = 3;
+var esMoto = true;
+var horas = 4;
+
+var tarifa = esMoto ? 2000 : 5000;
+var total = tarifa * horas;
+
+console.log("Tipo de vehículo: " + (esMoto ? "Moto" : "Carro"));
+console.log("Horas parqueadas: " + horas);
+console.log("Total a pagar: $" + total);
+
