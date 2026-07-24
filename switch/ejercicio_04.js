@@ -13,3 +13,36 @@
   muestra: "Color no registrado."
 */
 
+// Ejercicio 4 - Switch: Color por inicial
+
+var inicial = "R";
+
+switch (inicial) {
+    case "R":
+        console.log("Rojo");
+        break;
+
+    case "G":
+        console.log("Verde");
+        break;
+
+    case "B":
+        console.log("Azul");
+        break;
+
+    case "Y":
+        console.log("Amarillo");
+        break;
+
+    case "W":
+        console.log("Blanco");
+        break;
+
+    case "K":
+        console.log("Negro");
+        break;
+
+    default:
+        console.log("Color no registrado.");
+        break;
+}
