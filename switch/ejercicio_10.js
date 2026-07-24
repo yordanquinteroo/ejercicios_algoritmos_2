@@ -20,7 +20,73 @@
 
   Imprime el mes de nacimiento y el signo zodiacal correspondiente.
 */
+// Ejercicio 10 - Switch: Signo zodiacal
 
-let mes = 8;
-let signo;
+var mes = 8;
+
+switch (mes) {
+    case 1:
+        console.log("Mes: " + mes);
+        console.log("Signo: Capricornio");
+        break;
+
+    case 2:
+        console.log("Mes: " + mes);
+        console.log("Signo: Acuario");
+        break;
+
+    case 3:
+        console.log("Mes: " + mes);
+        console.log("Signo: Piscis");
+        break;
+
+    case 4:
+        console.log("Mes: " + mes);
+        console.log("Signo: Aries");
+        break;
+
+    case 5:
+        console.log("Mes: " + mes);
+        console.log("Signo: Tauro");
+        break;
+
+    case 6:
+        console.log("Mes: " + mes);
+        console.log("Signo: Géminis");
+        break;
+
+    case 7:
+        console.log("Mes: " + mes);
+        console.log("Signo: Cáncer");
+        break;
+
+    case 8:
+        console.log("Mes: " + mes);
+        console.log("Signo: Leo");
+        break;
+
+    case 9:
+        console.log("Mes: " + mes);
+        console.log("Signo: Virgo");
+        break;
+
+    case 10:
+        console.log("Mes: " + mes);
+        console.log("Signo: Libra");
+        break;
+
+    case 11:
+        console.log("Mes: " + mes);
+        console.log("Signo: Escorpio");
+        break;
+
+    case 12:
+        console.log("Mes: " + mes);
+        console.log("Signo: Sagitario");
+        break;
+
+    default:
+        console.log("Mes no válido.");
+        break;
+}
 
