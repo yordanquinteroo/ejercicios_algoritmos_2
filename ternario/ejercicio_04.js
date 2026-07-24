@@ -7,3 +7,11 @@
   Imprime: "El numero mayor es: X"
 */
 
+// Ejercicio - Operador ternario: Número mayor
+
+var a = 15;
+var b = 25;
+
+var mayor = (a > b) ? a : b;
+
+console.log("El número mayor es: " + mayor);
