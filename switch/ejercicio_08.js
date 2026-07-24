@@ -14,5 +14,45 @@
   8 → Neptuno
   Para cualquier otro numero, muestra: "No es un planeta del sistema solar."
 */
+// Ejercicio 8 - Switch: Planetas del sistema solar
 
+var numeroPlaneta = 3;
+
+switch (numeroPlaneta) {
+    case 1:
+        console.log("Mercurio");
+        break;
+
+    case 2:
+        console.log("Venus");
+        break;
+
+    case 3:
+        console.log("Tierra");
+        break;
+
+    case 4:
+        console.log("Marte");
+        break;
+
+    case 5:
+        console.log("Júpiter");
+        break;
+
+    case 6:
+        console.log("Saturno");
+        break;
+
+    case 7:
+        console.log("Urano");
+        break;
+
+    case 8:
+        console.log("Neptuno");
+        break;
+
+    default:
+        console.log("No es un planeta del sistema solar.");
+        break;
+}
 
